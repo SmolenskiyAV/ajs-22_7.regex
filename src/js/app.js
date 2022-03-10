@@ -6,7 +6,6 @@ console.log(sum([1, 2]));
 
 //================================================================
 
-const m = new Validator();
 
 const validatingName1 = 'jj345jj';
 const validatingName2 = '6jdj345jj';
@@ -16,16 +15,16 @@ const validatingName4 = 'jj3458jj';
 console.log("************* NameValidator **********")
 console.log()
 
-console.log(`User name is ${validatingName1} :` + 'check result = ' + m.validateUsername(validatingName1));
+console.log(`User name is ${validatingName1} :` + 'check result = ' + Validator.validateUsername(validatingName1));
 console.log()
 
-console.log(`User name is ${validatingName2} :` + 'check result = ' + m.validateUsername(validatingName2));
+console.log(`User name is ${validatingName2} :` + 'check result = ' + Validator.validateUsername(validatingName2));
 console.log()
 
-console.log(`User name is ${validatingName3} :` + 'check result = ' + m.validateUsername(validatingName3));
+console.log(`User name is ${validatingName3} :` + 'check result = ' + Validator.validateUsername(validatingName3));
 console.log()
 
-console.log(`User name is ${validatingName4} :` + 'check result = ' + m.validateUsername(validatingName4));
+console.log(`User name is ${validatingName4} :` + 'check result = ' + Validator.validateUsername(validatingName4));
 console.log()
 
 console.log("============== END of VALIDATION ==============")
